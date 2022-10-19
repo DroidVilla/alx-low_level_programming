@@ -24,7 +24,8 @@ else
 printf("%d, ", n);
 n = n + 1;
 }
-} else if (n > 98)
+}
+else if (n > 98)
 
 {
 
