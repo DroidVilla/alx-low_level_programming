@@ -3,7 +3,7 @@
 /**
 *main -function to print
 *
-*Return: Always 
+*Return: Always
 */
 
 int main(void)
