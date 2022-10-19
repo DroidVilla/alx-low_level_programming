@@ -22,8 +22,6 @@ int hours_remainder;
 
 int mins_remainder;
 
-
-
 while (hours <= 23)
 
 {
@@ -52,7 +50,7 @@ _putchar('\n');
 
 hours++;
 
-inutes = 0;
+minutes = 0;
 
 }
 
