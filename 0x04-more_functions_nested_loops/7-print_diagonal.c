@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_line - a function that draw a straight line in the terminal
- * @n: inputs number of times to print '_'
- * Return: a straight line
+ * print_diagonal - a function that draws a diagonal line on the terminal
+ * @n: input number of times '\' should be printeds
+ * Return: a diagonal
  */
-void print_line(int n)
+void print_diagonal(int n)
 {
-int co;
+int co, sp;
 if (n <= 0)
 {
 _putchar('\n');
@@ -15,8 +15,12 @@ else
 {
 for (co = 1; co <= n; co++)
 {
-_putchar('_');
+for (sp = 1; sp < co; sp++)
+{
+_putchar(' ');
 }
+_putchar('\\');
 _putchar('\n');
+}
 }
 }
