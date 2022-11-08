@@ -1,1 +1,1 @@
-Static library stuff
+Non empty readme for Static
